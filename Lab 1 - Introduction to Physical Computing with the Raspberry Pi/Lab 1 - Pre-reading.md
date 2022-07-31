@@ -6,7 +6,8 @@ Please read the following before coming to the labs -
 
 3. Go through the RPi.GPIO and gpiozero library documentation – gpiozero — GPIO Zero 1.6.2 Documentation https://gpiozero.readthedocs.io/en/stable/, and raspberry-gpio-python download | SourceForge.net, https://sourceforge.net/projects/raspberry-gpio-python/. The purpose of this exercise is to get you familiarized with resources that you can use at a later stage (and also make you aware how you can find them!).
 
-4. Read the following about digital storage oscilloscopes - even if it feels rudimentary - Keysight Oscilloscope Basics - https://students.iitmandi.ac.in/moodle/pluginfile.php/81381/course/section/31661/Keysight%20Oscilloscope%20basics.pdf 
+4. Read the following about digital storage oscilloscopes - even if it feels rudimentary - Keysight Oscilloscope Basics - (provided in the folder). 
+ 
 Read the Python codes below before coming to class. If you have any questions, please ask the TA before starting to run the code on the Raspberry Pi.
 
 
