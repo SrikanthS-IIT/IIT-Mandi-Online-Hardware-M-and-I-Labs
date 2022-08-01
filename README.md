@@ -10,7 +10,7 @@ This repository contains Python codes, configuration notes, laboratory manuals a
 The course content is designed by 
 
 - **Dr. Srikanth Sugavanam**, Assistant Professor, School of Computing and Electrical Engineering, IIT Mandi, and
-- **Dr. Erwin Fuhrer**, Assistant Professor, School of Computing and Electrical Engineering, IIT Mandi. 
+- **Dr. Erwin Fuhrer**, Visiting Assistant Professor, School of Computing and Electrical Engineering, IIT Mandi. 
 
 The course is licensed under the Creative-Commons CC-BY-NC-SA license. 
 
@@ -42,7 +42,7 @@ This is the first of the scaffolding experiments, where the students are introdu
 ### Lab 2 - Time of flight distance measurement
 This is the second scaffolding experiment where the commonly used HC-SR04 ultrasound detector is triggered using the RPi and distance measurements are made. Remote automation and control of the oscilloscope are introduced in this experiment. The students ultimately write a Python script for interrogating the ultrasound sensor, and also for setting the scales of the axis and the trigger levels on the oscilloscope that is directly recording the data from the sensor outputs. 
 ### Lab 3 - Hardware timing and distance measurement
-This is an extension of the above experiment where the students see the limitations of the software based trigger and timing issues of the RPi. They are introduced to the pigpio library, which is used to obtain a much better estimate of the distance measurements from the HC-SR04. 
+This is an extension of the above experiment where the students see the limitations of the software based trigger and timing issues of the RPi. They are introduced to the pigpio library, which is used to obtain a much better estimate of the distance measurements from the HC-SR04. The pigpio library makes use of an external clock that enables the precise timing of rectangular pulses with a precision down to microseconds. The accuracy and reliable operational range of software and hardware triggering needs to be analysed by comparing software and hardware trigger pulses with different pulse lengths. 
 ### Lab 4 - Digital Potentiometers
 This is the last of the scaffolding experiments, where the students are introduced to the digital potentiometer X9C103. Writing the codes for remote control of the X9C103 from scratch is out of scope for the students, as it would require them to study the timing diagrams and the wiper configuration sequence. So the basic commands for moving the potentiometer wiper by one step up or down is provided to the students. Using simple logic and provided code examples, the students construct a voltage divider, and read its output using a remotely controlled oscilloscope.  
 ### Lab 5 - The Wheatstone bridge
@@ -50,7 +50,11 @@ This is the first experiment that introduces the students to the concept of sens
 ### Lab 6 - Temperature measurements 
 This is an exploratory lab, where the students use a platinum resistance thermometer to measure the temperature of a Peltier element. This introduces students to the concept of sensor mounting, calibration, and error analysis approaches. For instance, the students first have to calibrate the temperature of the Peltier element as a function of its current using a digital thermometer. This information is then used to calibrate the temperature-dependent resistance of the PTC. Finally, the students mount the thermistor and PTC in a Wheatstone bridge configuration and read out the temperature as a function of the voltage across the bridge. 
 ### Lab 7 - Pressure sensors
+This is the first of two labs in which the students learn to interface a digital sensor to the RaspberryPi. With the aid of a provided sensor driver the students are able to acquire the raw data from the sensor in form of a 16-bit datastream. After correct initialisation of the sensor, the first main task is to convert this data into an output stream of correct differential pressure with the aid of the sensor datasheet. Secondly, the students use the sensor to conduct two pressure experiments by using the sensor output.   
+
 ### Lab 8 - Wind tunnel based wind velocity measurements
+This is an application lab in which the students use the pressure sensor from the previous lab. The students are provided with a simple wind tunnel setup. The task is to derive the wind speed in the wind tunnel by measuring the difference between stagnation and static pressure (Principle of Pitot-Static tube). The next step is to measure the efficiency of the wind tunnel at different operating points and to analyse the effect of a streamline rectifier, by measuring the velocity at different locations. 
+
 ### Lab 9 – Innovation
 In this final lab, the students are asked to develop an application by choosing a sensor or actuator from a provided list with supporting material. Some basic guidelines are provided to help students structure their strategy, and also enable uniformity of assessment across the cohort. The purpose of this lab is to show the students that they have been provided with a core skill set that will enable them to pick up any sensor or actuator from the marketplace and use it in their own application. 
 
