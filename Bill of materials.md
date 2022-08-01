@@ -4,7 +4,7 @@ This is more or less the make-up of our individual kits. With these components, 
 
 1. Raspberry Pi kit
     - Raspberry Pi 4 Model B
-    - HDMI Cable (check the size - mini HDMI may be required for RPi 4)
+    - HDMI Cable (check the connecctor size - micro-HDMI is required for RPi 4)
     - SD Card - 32 GB
     - Raspberry Pi power supply
     - Keyboard + mouse (wireless option recommended)
@@ -15,7 +15,8 @@ This is more or less the make-up of our individual kits. With these components, 
     - Digital thermometer
     - RTD (PT-100)
     - Thermistor - NTC
-    - Pressure sensor (1V/kPA) MPVX7002
+    - Pressure sensor D6F-PH0505AD3
+    - Replacement cable for TF mini LIDAR sensor 
     - 180^0 servo
     - 360^0 servo
     - Stepper motor (~4.2 kg-cm version should be enough)
@@ -41,14 +42,17 @@ This is more or less the make-up of our individual kits. With these components, 
     - C-Fan 80x80 mm 5V
     - Copper tube 
     - Acrylic tube diameter 80 mm
-    - Straws (100 pcs)
+    - Paper straws and duct tape
     - Acrylic sheet 12x12 inch
     - Acrylic glue
+    - M3 screws and nuts 
 5. Other resources
     - Computer monitor
     - HDMI-VGA adapter if required
     - Oscilloscope (codes provided in this repository are Keysight DSOX1102G-ready)
     - Voltage source (will be used for driving the Peltier element and instrumentation amplifiers)
+    - Tripod (for webcam)
+    - HD-webcam (for online mode)
 
 
   
