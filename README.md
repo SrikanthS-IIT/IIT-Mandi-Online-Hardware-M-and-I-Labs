@@ -4,6 +4,8 @@
 
 This repository contains Python codes, configuration notes, laboratory manuals and bill of materials for realizing an online-hardware hybrid Measurement and Instrumentation lab course based around the Raspberry Pi Platform.
 
+![Test](https://github.com/SrikanthS-IIT/IIT-Mandi-Online-Hardware-M-and-I-Labs/blob/main/Images/Demo_small.jpg)
+
 ## Introduction
 This repository contains Python codes, configuration notes, laboratory manuals and bill of materials for realizing an online-hardware hybrid Measurement and Instrumentation lab course. This course was first implemented at the School of Computing and Electrical Engineering, IIT Mandi (course module description included) in the Spring 2022 semester, and offered as IC231 - Measurement and Instrumentation. 
 
@@ -57,6 +59,8 @@ This is an exploratory lab, where the students use a platinum resistance thermom
 
 ### Lab 7 - Pressure sensors
 This is the first of two labs in which the students learn to interface a digital sensor to the RaspberryPi. With the aid of a provided sensor driver the students are able to acquire the raw data from the sensor in form of a 16-bit datastream. After correct initialisation of the sensor, the first main task is to convert this data into an output stream of correct differential pressure with the aid of the sensor datasheet. Secondly, the students use the sensor to conduct two pressure experiments by using the sensor output.   
+
+![Test](https://github.com/SrikanthS-IIT/IIT-Mandi-Online-Hardware-M-and-I-Labs/blob/main/Images/Peltier.jpg)
 
 ### Lab 8 - Wind tunnel based wind velocity measurements
 This is an application lab in which the students use the pressure sensor from the previous lab. The students are provided with a simple wind tunnel setup. The task is to derive the wind speed in the wind tunnel by measuring the difference between stagnation and static pressure (Principle of Pitot-Static tube). The next step is to measure the efficiency of the wind tunnel at different operating points and to analyse the effect of a streamline rectifier, by measuring the velocity at different locations. 
