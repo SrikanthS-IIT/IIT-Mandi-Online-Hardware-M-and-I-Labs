@@ -6,6 +6,8 @@ This repository contains Python codes, configuration notes, laboratory manuals a
 
 ![Test](https://github.com/SrikanthS-IIT/IIT-Mandi-Online-Hardware-M-and-I-Labs/blob/main/Images/Demo_small.jpg)
 
+*Image showing a teaching assistant (TA) conducting a fully remote, live-streamed, online-hardware lab session. A Google Meet session is running on the left hand side, with a remote team logged in along with the TA. One of the remote users is logged into the Raspberry Pi on the right and sharing their screen in the Google Meet session, while a video camera live-streams the experiment in action.*
+
 ## Introduction
 This repository contains Python codes, configuration notes, laboratory manuals and bill of materials for realizing an online-hardware hybrid Measurement and Instrumentation lab course. This course was first implemented at the School of Computing and Electrical Engineering, IIT Mandi (course module description included) in the Spring 2022 semester, and offered as IC231 - Measurement and Instrumentation. 
 
