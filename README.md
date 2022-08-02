@@ -21,6 +21,11 @@ Implementations of the experiments are centred around the Raspberry Pi, which en
 
 Lab experiments are complemented by taught lectures, which are offered in step with the lab activities. The first four labs are essentially for scaffolding learning, enabling the students to become comfortable with the hardware and software aspects. To keep the emphasis on the physics and engineering aspects of the course, essential libraries and code examples are provided to the students for implementing the lab tasks. 
 
+![Setup](https://github.com/SrikanthS-IIT/IIT-Mandi-Online-Hardware-M-and-I-Labs/blob/main/Images/Setup_small.jpg)
+
+*Configuration of the online-hardware set up: Center - Raspberry Pi instance; Right - A VLC Connect session running on a computer external to the Institute LAN; Left - A Google meet session that is showing a live stream of the experimental configuration.*
+
+
 ## Description of materials provided
 
 ### Raspberry Pi configuration note
@@ -49,6 +54,7 @@ This is the last of the scaffolding experiments, where the students are introduc
 This is the first experiment that introduces the students to the concept of sensors and sensor interrogation. The students mount the digital potentiometer in one of the arms of the Wheatstone bridge and measure the voltage response of the bridge as the potentiometer sweeps linearly. The students uses codes they have already developed in their previous labs, so the students quickly advance to the actual learning outcomes of the experiment, which is investigation of the nonlinear response of the bridge, and the dependence of the sensitivity on the chosen values of the resistances in the other arms of the bridge. 
 ### Lab 6 - Temperature measurements 
 This is an exploratory lab, where the students use a platinum resistance thermometer to measure the temperature of a Peltier element. This introduces students to the concept of sensor mounting, calibration, and error analysis approaches. For instance, the students first have to calibrate the temperature of the Peltier element as a function of its current using a digital thermometer. This information is then used to calibrate the temperature-dependent resistance of the PTC. Finally, the students mount the thermistor and PTC in a Wheatstone bridge configuration and read out the temperature as a function of the voltage across the bridge. 
+
 ### Lab 7 - Pressure sensors
 This is the first of two labs in which the students learn to interface a digital sensor to the RaspberryPi. With the aid of a provided sensor driver the students are able to acquire the raw data from the sensor in form of a 16-bit datastream. After correct initialisation of the sensor, the first main task is to convert this data into an output stream of correct differential pressure with the aid of the sensor datasheet. Secondly, the students use the sensor to conduct two pressure experiments by using the sensor output.   
 
