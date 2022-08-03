@@ -67,6 +67,8 @@ This is the first of two labs in which the students learn to interface a digital
 ### Lab 8 - Wind tunnel based wind velocity measurements
 This is an application lab in which the students use the pressure sensor from the previous lab. The students are provided with a simple wind tunnel setup. The task is to derive the wind speed in the wind tunnel by measuring the difference between stagnation and static pressure (Principle of Pitot-Static tube). The next step is to measure the efficiency of the wind tunnel at different operating points and to analyse the effect of a streamline rectifier, by measuring the velocity at different locations. 
 
+![Wind tunnel](https://user-images.githubusercontent.com/88375431/182611405-59876251-c0c2-45b2-a6b5-a7d3dee6d87e.jpg)
+
 ### Lab 9 – Innovation
 In this final lab, the students are asked to develop an application by choosing a sensor or actuator from a provided list with supporting material. Some basic guidelines are provided to help students structure their strategy, and also enable uniformity of assessment across the cohort. The purpose of this lab is to show the students that they have been provided with a core skill set that will enable them to pick up any sensor or actuator from the marketplace and use it in their own application. 
 
