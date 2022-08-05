@@ -77,7 +77,7 @@ In this final lab, the students are asked to develop an application by choosing 
 
 ## License and Legalese
 
-The codes and materials provided in this repository were tested in our teaching labs, and worked for our particular circumstances. It is on this basis that we provide these in this repository - in good faith, and with the intention that these are primarily used for educational purposes. It may be so that you might have to tweak the codes or look for alternatives for your particular case. With this said, here is some dry legalese. :)
+The codes and materials provided in this repository were tested in our teaching labs, and worked for our particular circumstances. It is on this basis that we provide these in this repository - in good faith, and with the intention that these are primarily used for non-commercial educational purposes. It may be so that you might have to tweak the codes or look for alternatives for your particular case. With this said, here is some dry legalese. :)
 
 **DISCLAIMER - The codes and materials as provided in this repository are provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose or non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software, codes and associated material, or the use of other dealings of software, codes and associated material.**
 
