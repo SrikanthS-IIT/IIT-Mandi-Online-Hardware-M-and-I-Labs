@@ -18,7 +18,7 @@ The course content is designed by
 - **Dr. Srikanth Sugavanam**, Assistant Professor, School of Computing and Electrical Engineering, IIT Mandi, and
 - **Dr. Erwin Fuhrer**, Visiting Assistant Professor, School of Computing and Electrical Engineering, IIT Mandi. 
 
-The course is licensed under the Creative-Commons CC-BY-NC-SA license. 
+The course is licensed under the Creative-Commons CC-BY-NC-SA license. Please also see the License and Legalese section at the end of this document. 
 
 ## Course Design Essentials
 The course is designed to be implemented in an ‘online-hardware’ and hybrid mode. The online-hardware mode enables remote learning on real-world sensors, actuators and other electronics. The hybrid mode implies that both students present in person in the lab and those attending the course remotely can do the experiments simultaneously. 
